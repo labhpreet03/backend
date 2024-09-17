@@ -1,43 +1,10 @@
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
 import connectDB from "./db/connect.js";
 
-
 dotenv.config();
 
-connectDB()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+connectDB();
 
 // // require('dotenv').config({path: './env'})
 // import dotenv from 'dotenv'
@@ -46,7 +13,6 @@ connectDB()
 // import {DB_NAME} from "./constants.js"
 // import express from "express"
 // const app = express()
-
 
 // ;(async ()=>{
 //     try{
