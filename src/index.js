@@ -14,7 +14,7 @@ connectDB()
  })
 })
 .catch((err)=>{
-    console.log('MongoDB connection failed ! ...',err)
+    console.log('MongoDB connection failed ! ....',err)
 })
 
 // // require('dotenv').config({path: './env'})
